@@ -1,0 +1,113 @@
+$light-text: #213f7d;
+$header-text: #545f7d;
+$light-bg: #39cdcc;
+@import url("https://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+
+.header {
+  text-align: left;
+  margin: 30px;
+  width: 174px;
+  height: 37px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  @import url("https://fonts.cdnfonts.com/css/avenir-next-lt-pro");
+}
+.welcome {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #545f7d;
+}
+.welcome2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #213f7d;
+}
+.form--input {
+  width: 447px;
+  height: 50px;
+  padding-left: 15px;
+  margin: 24px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.forgot {
+  color: $light-bg;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  display: block;
+  text-align: left;
+  margin-bottom: 30pt;
+  border: 0px none #545F7D;
+}
+
+.button {
+  width: 447px;
+  height: 48px;
+  background-color: $light-bg;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.input__show{
+    position: absolute;
+    width: 50px;
+    height: 50px; 
+    margin-left: -50px;
+    margin-top: 26px;
+    color: $light-bg;
+    cursor: pointer;
+    border: 0px none white;
+    background-color: white;
+}
+.button{
+    z-index: 3;
+}
+
+.input__show:hover{
+    font-weight: bold;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .main{
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .form--input {
+        width: 80%;
+        height: 40px;
+        padding-left: 15px;
+        margin: 24px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .button {
+        width: 80%;
+        height: 38px;
+        background-color: $light-bg;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .main-banner img{
+        max-width: 100%;
+
+      }
+}
