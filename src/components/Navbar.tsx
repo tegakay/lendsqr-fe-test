@@ -13,8 +13,8 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="nav-header"><img src={header} className="header-icon" alt="lendsqr logo" /></div>
       <div className="nav-search">
-        <form className="nav-form">
-          <input
+        <div className="nav-form">
+        <input
             type="text"
             placeholder="Search for Anything"
             className="nav-input"
@@ -24,8 +24,8 @@ export const Navbar = () => {
           <button className="nav-button" type="submit">
             <CiSearch />
           </button>
-         
-        </form>
+        </div>
+  
       </div>
       <ul className="nav-list">
             <li className="navlists1"><Link to="/">Docs</Link></li>

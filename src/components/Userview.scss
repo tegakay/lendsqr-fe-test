@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.user-header {
+  display: flex;
+  gap: 20px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.user-form {
+  box-shadow: 1px 1px 1px 1px #888888;
+  width: 270px;
+  max-height: 600px;
+}
+.user-hide {
+  display: none;
+}
+.user-form--input {
+  width: 230px;
+  height: 40px;
+}
+
+label {
+  display: block;
+}
+.user-toggle {
+  margin: 20px;
+}
+
+.reset,
+.submit {
+  width: 98px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 5px;
+}
+.reset {
+  color: #545f7d;
+}
+.submit {
+  background-color: #39cdcc;
+}
+.pagination {
+  min-width: 0;
+  width: 80px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-items: end;
+}
+
+.pagination a {
+  height: 24px;
+  width: 24px;
+  background-color: #e5e5e5;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  margin: 10px;
+}
+.pagination a:hover{
+    cursor: pointer;
+}
+
+.userview-form{
+  padding-top: 10px;
+}
+.main-header{
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.08px;
+  
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+th,td{
+  padding: 5px;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.card {
+  width: 145px;
+  height: 97px;
+  border: 1px solid #213f7d;
+  box-shadow: 1px 1px 1px 1px #888888;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.card-img {
+  width: 40px;
+  height: 40px;
+}
+.card-img-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #545f7d;
+}
+.card-img-text_content {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #213f7d;
+}

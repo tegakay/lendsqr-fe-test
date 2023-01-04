@@ -13,6 +13,7 @@
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-search {
   width: 400px;
@@ -22,6 +23,7 @@
   display: inline;
   width: 344px;
   height: 40px;
+  
 }
 .nav-input {
   display: inline;
@@ -34,6 +36,7 @@
   height: 40px;
   background-color: #39cdcc;
   border: 1px solid #213f7d;
+  vertical-align: bottom;
 }
 .docs {
   text-decoration: underline;
@@ -52,10 +55,12 @@
   height: 26px;
   width: 26px;
   border-radius: 0px;
+  font-size: 25px;
 }
 .navlists3{
     margin-right: 5px;
-    font-size: 30px;
+    font-size: 40px;
   height: 48px;
   width: 48px;
+ 
 }
